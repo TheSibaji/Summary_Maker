@@ -19,7 +19,7 @@ async function summarize(){
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'x-rapidapi-key': '567c11ea14msh17376f724cab002p1b3fb6jsn912f03f421d9',
+                'x-rapidapi-key': 'Add your api key',    //this code wiil not work properly with out a api key
                 'x-rapidapi-host': 'tldrthis.p.rapidapi.com'
             },
             body: JSON.stringify(requestBody)
